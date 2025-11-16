@@ -1,0 +1,239 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Chi tiết Sản phẩm";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-info text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-eye me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a href="@Url.Action("Index")" class="btn btn-light btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i>Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <!-- Product Images -->
+                        <div class="col-md-5">
+                            <div class="card">
+                                <div class="card-header bg-primary text-white">
+                                    <h5 class="mb-0">
+                                        <i class="fas fa-images me-2"></i>
+                                        Hình ảnh sản phẩm
+                                        <span class="badge bg-light text-primary ms-2">@Model.Images.Count ảnh</span>
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    @if (Model.Images.Any())
+                                    {
+                                        <!-- Main Image -->
+                                        <div class="text-center mb-4">
+                                            @{
+                                                var primaryImage = Model.Images.FirstOrDefault(i => i.IsPrimary) ?? Model.Images.First();
+                                            }
+                                            <img src="@primaryImage.ImageUrl"
+                                                 class="img-fluid rounded"
+                                                 style="max-height: 300px; object-fit: contain;"
+                                                 alt="@Model.Name"
+                                                 id="mainImage" />
+                                            @if (primaryImage.IsPrimary)
+                                            {
+                                                <div class="mt-2">
+                                                    <span class="badge bg-warning text-dark">
+                                                        <i class="fas fa-star me-1"></i>Ảnh chính
+                                                    </span>
+                                                </div>
+                                            }
+                                        </div>
+
+                                        <!-- Thumbnail Images -->
+                                        @if (Model.Images.Count > 1)
+                                        {
+                                            <div class="d-flex flex-wrap gap-2 justify-content-center">
+                                                @foreach (var image in Model.Images)
+                                                {
+                                                    <img src="@image.ImageUrl"
+                                                         class="img-thumbnail @(image.IsPrimary ? "border-warning" : "")"
+                                                         style="width: 80px; height: 80px; object-fit: cover; cursor: pointer;"
+                                                         alt="@image.FileName"
+                                                         onclick="changeMainImage('@image.ImageUrl', this)"
+                                                         data-image-id="@image.Id" />
+                                                }
+                                            </div>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <div class="text-center py-5">
+                                            <i class="fas fa-image fa-3x text-muted mb-3"></i>
+                                            <p class="text-muted">Chưa có hình ảnh cho sản phẩm này</p>
+                                        </div>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Product Information -->
+                        <div class="col-md-7">
+                            <div class="card">
+                                <div class="card-header bg-success text-white">
+                                    <h5 class="mb-0">
+                                        <i class="fas fa-info-circle me-2"></i>
+                                        Thông tin sản phẩm
+                                    </h5>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-bordered">
+                                        <tr>
+                                            <th width="30%" class="bg-light">ID:</th>
+                                            <td>@Model.Id</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg-light">Tên sản phẩm:</th>
+                                            <td class="fw-bold text-primary">@Model.Name</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg-light">Giá:</th>
+                                            <td>
+                                                <span class="fw-bold text-success fs-5">
+                                                    @Model.Price.ToString("N0") ₫
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg-light">Mô tả:</th>
+                                            <td>
+                                                @if (!string.IsNullOrEmpty(Model.Description))
+                                                {
+                                                    @Model.Description
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">Chưa có mô tả</span>
+                                                }
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg-light">Số lượng ảnh:</th>
+                                            <td>
+                                                <span class="badge bg-info">@Model.Images.Count ảnh</span>
+                                                @if (Model.Images.Any(i => i.IsPrimary))
+                                                {
+                                                    <span class="badge bg-warning text-dark ms-2">
+                                                        <i class="fas fa-star me-1"></i>Có ảnh chính
+                                                    </span>
+                                                }
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="bg-light">Danh sách ảnh:</th>
+                                            <td>
+                                                @if (Model.Images.Any())
+                                                {
+                                                    <div class="small">
+                                                        @foreach (var image in Model.Images)
+                                                        {
+                                                            <div class="d-flex align-items-center mb-1">
+                                                                <i class="fas fa-image text-muted me-2"></i>
+                                                                <span>@image.FileName</span>
+                                                                @if (image.IsPrimary)
+                                                                {
+                                                                    <span class="badge bg-warning text-dark ms-2">Chính</span>
+                                                                }
+                                                            </div>
+                                                        }
+                                                    </div>
+                                                }
+                                                else
+                                                {
+                                                    <span class="text-muted">Không có ảnh</span>
+                                                }
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="d-flex gap-2">
+                                <a href="@Url.Action("Edit", new { id = Model.Id })" class="btn btn-primary">
+                                    <i class="fas fa-edit me-1"></i>Chỉnh sửa
+                                </a>
+                                <a href="@Url.Action("Delete", new { id = Model.Id })" class="btn btn-danger">
+                                    <i class="fas fa-trash me-1"></i>Xóa sản phẩm
+                                </a>
+                                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                                    <i class="fas fa-arrow-left me-1"></i>Quay lại danh sách
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function changeMainImage(imageUrl, element) {
+            // Change main image
+            document.getElementById('mainImage').src = imageUrl;
+
+            // Remove border from all thumbnails
+            document.querySelectorAll('.img-thumbnail').forEach(img => {
+                img.classList.remove('border-warning');
+                img.classList.remove('border-3');
+            });
+
+            // Add border to clicked thumbnail
+            element.classList.add('border-warning');
+            element.classList.add('border-3');
+        }
+
+        // Initialize - set border for primary image
+        document.addEventListener('DOMContentLoaded', function() {
+            const primaryThumbnail = document.querySelector('.img-thumbnail.border-warning');
+            if (primaryThumbnail) {
+                primaryThumbnail.classList.add('border-3');
+            }
+        });
+    </script>
+}
+
+<style>
+    .table th {
+        background-color: #f8f9fa !important;
+        font-weight: 600;
+    }
+
+    .img-thumbnail {
+        transition: all 0.3s ease;
+        border: 2px solid #dee2e6;
+    }
+
+        .img-thumbnail:hover {
+            transform: scale(1.05);
+            border-color: #007bff;
+        }
+
+        .img-thumbnail.border-warning {
+            border-color: #ffc107 !important;
+        }
+
+    .card {
+        box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+        border: 1px solid rgba(0, 0, 0, 0.125);
+    }
+</style>

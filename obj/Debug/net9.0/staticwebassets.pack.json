@@ -1,0 +1,1957 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\SAProject\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\SAProject.bundle.scp.css",
+      "PackagePath": "staticwebassets\\SAProject.c41w4odm2l.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\animate.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\boxicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\boxicons.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\dark.css",
+      "PackagePath": "staticwebassets\\assets\\css\\dark.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\flaticon.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\magnific-popup.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\meanmenu.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\meanmenu.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\nice-select.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\nice-select.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\rangeSlider.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\rangeSlider.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\slick.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\slick.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\Flaticon.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.woff2"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\Flaticond41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticond41d.eot"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\boxicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.eot"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\boxicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxicons.woff2"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\fonts\\boxiconsd41d.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\boxiconsd41d.svg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert3.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert4.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert5.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert6.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\alert7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\alert7.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\model.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\model.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\model2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\model2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\alert\\model3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\alert\\model3.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\background\\error-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\error-bg.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\background\\login-register.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\login-register.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\background\\socialbg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\background\\socialbg.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\big\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\big\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\big\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\big\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\big\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\big\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\big\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\big\\img4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\big\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\big\\img5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\big\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\big\\img6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\chrome-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\chrome-logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\firefox-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\firefox-logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\internet-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\internet-logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\opera-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\opera-logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\photoshop.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\photoshop.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\safari-logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\safari-logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\browser\\sketch.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\browser\\sketch.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\custom-select.png",
+      "PackagePath": "staticwebassets\\assets\\images\\custom-select.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\logo-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-icon.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\logo-light-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-light-icon.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\logo-light-text.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-light-text.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\logo-text.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo-text.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\tooltip\\Euclid.png",
+      "PackagePath": "staticwebassets\\assets\\images\\tooltip\\Euclid.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\images\\users\\8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\users\\8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\about\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\about\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\about\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\banner-img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img1.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\banner-img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\banner-img2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\bg.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\blog\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\blog\\img8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\brand\\img1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\img1.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\brand\\img2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\img2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\brand\\img3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\img3.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\brand\\img4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\img4.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\brand\\img5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\img5.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\brand\\img6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\brand\\img6.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img10.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\categories\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\categories\\img9.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\coming-soon-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\coming-soon-bg.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\error-404.png",
+      "PackagePath": "staticwebassets\\assets\\img\\error-404.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\france-flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\france-flag.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item10.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item11.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item12.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\gallery\\item9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\gallery\\item9.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\germany-flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\germany-flag.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img10.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\instagram\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\instagram\\img9.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\italy-flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\italy-flag.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\lookbook\\item9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\lookbook\\item9.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\main-banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\main-banner1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\main-banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\main-banner2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\main-banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\main-banner3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\main-banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\main-banner4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\main-banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\main-banner5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\main-banner6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\main-banner6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\night.png",
+      "PackagePath": "staticwebassets\\assets\\img\\night.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\offer-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\offer-bg.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\offer-bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\offer-bg2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\offer\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\offer\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\offer\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\offer\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\offer\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\offer\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\partner\\partner1.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\partner1.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\partner\\partner2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\partner2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\partner\\partner3.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\partner3.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\partner\\partner4.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\partner4.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\partner\\partner5.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\partner5.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\partner\\partner6.png",
+      "PackagePath": "staticwebassets\\assets\\img\\partner\\partner6.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\payment\\expresscard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\expresscard.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\payment\\mastercard.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\mastercard.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\payment\\mastercard2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\mastercard2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\payment\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\visa.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\payment\\visa2.png",
+      "PackagePath": "staticwebassets\\assets\\img\\payment\\visa2.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover10.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover11.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover12.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover13.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover14.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover15.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover16.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover17.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover18.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img-hover9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img-hover9.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img10.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img11.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img12.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img12.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img13.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img13.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img14.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img14.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img15.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img15.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img16.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img16.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img17.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img17.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img18.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img18.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img5.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img6.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img7.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img8.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\products\\img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\products\\img9.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\quick-view-img.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\quick-view-img.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\russia-flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\russia-flag.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\spain-flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\spain-flag.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\sunny.png",
+      "PackagePath": "staticwebassets\\assets\\img\\sunny.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\us-flag.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\us-flag.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\user1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\user2.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\user3.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user3.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\user4.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\user4.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\img\\white-logo.png",
+      "PackagePath": "staticwebassets\\assets\\img\\white-logo.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\ajaxchimp.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ajaxchimp.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\contact-form-script.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact-form-script.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\form-validator.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\form-validator.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\meanmenu.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\meanmenu.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\nice-select.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\nice-select.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\parallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\parallax.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\popper.min.html",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.html"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\rangeSlider.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\rangeSlider.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\slick.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\slick.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\sticky-sidebar.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\sticky-sidebar.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\js\\wow.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\wow.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\Magnific-Popup-master\\dist\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\Magnific-Popup-master\\dist\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-datepicker\\bootstrap-datepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-datepicker\\bootstrap-datepicker.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-material-datetimepicker\\css\\bootstrap-material-datetimepicker.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-select\\bootstrap-select.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-select\\bootstrap-select.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-switch\\bootstrap-switch.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-switch\\bootstrap-switch.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-table\\dist\\bootstrap-table.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-table\\dist\\bootstrap-table.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-tagsinput\\dist\\bootstrap-tagsinput.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\bootstrap-touchspin\\dist\\jquery.bootstrap-touchspin.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\c3-master\\c3.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\c3-master\\c3.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\calendar\\dist\\fullcalendar.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\calendar\\dist\\fullcalendar.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\chartist-js\\dist\\chartist-init.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\chartist-js\\dist\\chartist-init.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\chartist-js\\dist\\chartist.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\chartist-js\\dist\\chartist.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\chartist-plugin-tooltip-master\\dist\\chartist-plugin-tooltip.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\chartist-plugin-tooltip-master\\dist\\chartist-plugin-tooltip.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\clockpicker\\dist\\jquery-clockpicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\clockpicker\\dist\\jquery-clockpicker.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\cropper\\cropper.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\cropper\\cropper.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\css-chart\\css-chart.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\css-chart\\css-chart.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\datatables.net-bs4\\css\\dataTables.bootstrap4.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\datatables.net-bs4\\css\\dataTables.bootstrap4.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\datatables.net-bs4\\css\\responsive.dataTables.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\datatables.net-bs4\\css\\responsive.dataTables.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\datatables\\media\\js\\dataTables.bootstrap.html",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\datatables\\media\\js\\dataTables.bootstrap.html"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\dropify\\dist\\css\\dropify.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\dropify\\dist\\css\\dropify.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\dropify\\src\\images\\test-image-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\dropify\\src\\images\\test-image-1.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\dropify\\src\\images\\test-image-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\dropify\\src\\images\\test-image-2.jpg"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\dropzone-master\\dist\\dropzone.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\dropzone-master\\dist\\dropzone.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\footable\\css\\footable.bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\footable\\css\\footable.bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\gridstack\\gridstack.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\gridstack\\gridstack.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\horizontal-timeline\\css\\horizontal-timeline.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\horizontal-timeline\\css\\horizontal-timeline.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\html5-editor\\bootstrap-wysihtml5.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\html5-editor\\bootstrap-wysihtml5.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\all.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\all.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\_all.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\aero.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\aero.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\aero@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\aero@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\blue.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\blue.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\blue@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\blue@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\flat.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\flat.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\flat@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\flat@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\green.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\green.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\green@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\green@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\grey.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\grey.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\grey@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\grey@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\orange.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\orange.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\orange@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\orange@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\pink.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\pink@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\pink@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\purple.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\purple.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\purple@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\purple@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\red.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\red.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\red@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\red@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\yellow.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\flat\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\flat\\yellow@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\futurico\\futurico.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\futurico\\futurico.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\futurico\\futurico.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\futurico\\futurico.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\futurico\\futurico@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\futurico\\futurico@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\line\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\line\\_all.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\line\\line.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\line\\line.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\line\\line@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\line\\line@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\_all.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\aero.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\aero.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\aero@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\aero@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\blue.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\blue.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\blue@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\blue@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\green.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\green.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\green@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\green@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\grey.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\grey.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\grey@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\grey@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\minimal.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\minimal.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\minimal@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\minimal@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\orange.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\orange.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\orange@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\orange@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\pink.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\pink@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\pink@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\purple.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\purple.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\purple@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\purple@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\red.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\red.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\red@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\red@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\yellow.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\minimal\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\minimal\\yellow@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\polaris\\polaris.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\polaris\\polaris.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\polaris\\polaris.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\polaris\\polaris.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\polaris\\polaris@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\polaris\\polaris@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\_all.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\_all.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\aero.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\aero.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\aero@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\aero@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\blue.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\blue.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\blue@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\blue@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\green.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\green.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\green@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\green@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\grey.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\grey.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\grey@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\grey@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\orange.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\orange.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\orange@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\orange@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\pink.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\pink.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\pink@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\pink@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\purple.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\purple.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\purple@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\purple@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\red.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\red.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\red@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\red@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\square.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\square.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\square@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\square@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\yellow.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\yellow.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\icheck\\skins\\square\\yellow@2x.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\icheck\\skins\\square\\yellow@2x.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\ion-rangeslider\\css\\ion.rangeSlider.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\ion-rangeslider\\css\\ion.rangeSlider.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\ion-rangeslider\\css\\ion.rangeSlider.skinModern.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\ion-rangeslider\\css\\ion.rangeSlider.skinModern.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\ion-rangeslider\\img\\sprite-skin-modern.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\ion-rangeslider\\img\\sprite-skin-modern.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\css\\asColorPicker.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\css\\asColorPicker.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\alpha.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\alpha.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\hue.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\hue.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\saturation.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\saturation.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\transparent.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jquery-asColorPicker-master\\dist\\images\\transparent.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jsgrid\\jsgrid-theme.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jsgrid\\jsgrid-theme.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\jsgrid\\jsgrid.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\jsgrid\\jsgrid.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\morrisjs\\morris.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\morrisjs\\morris.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\multiselect\\css\\multi-select.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\multiselect\\css\\multi-select.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\multiselect\\img\\switch.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\multiselect\\img\\switch.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\nestable\\nestable.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\nestable\\nestable.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\prism\\prism.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\prism\\prism.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\register-steps\\steps.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\register-steps\\steps.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\select2\\dist\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\select2\\dist\\css\\select2.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\summernote\\dist\\font\\summernotec360.eot",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\summernote\\dist\\font\\summernotec360.eot"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\summernote\\dist\\font\\summernotec360.ttf",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\summernote\\dist\\font\\summernotec360.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\summernote\\dist\\font\\summernotec360.woff",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\summernote\\dist\\font\\summernotec360.woff"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\summernote\\dist\\summernote-bs4.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\summernote\\dist\\summernote-bs4.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\sweetalert2\\dist\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\sweetalert2\\dist\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\switchery\\dist\\switchery.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\switchery\\dist\\switchery.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\tablesaw\\dist\\tablesaw.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\tablesaw\\dist\\tablesaw.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\timepicker\\bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\timepicker\\bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\toast-master\\css\\jquery.toast.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\toast-master\\css\\jquery.toast.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\typeahead.js-master\\dist\\typehead-min.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\typeahead.js-master\\dist\\typehead-min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\vectormap\\jquery-jvectormap-2.0.2.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\vectormap\\jquery-jvectormap-2.0.2.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\wizard\\steps.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\wizard\\steps.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\x-editable\\dist\\bootstrap3-editable\\css\\bootstrap-editable.css",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\x-editable\\dist\\bootstrap3-editable\\css\\bootstrap-editable.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\x-editable\\dist\\bootstrap3-editable\\img\\clear.png",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\x-editable\\dist\\bootstrap3-editable\\img\\clear.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\assets\\node_modules\\x-editable\\dist\\bootstrap3-editable\\img\\loading.gif",
+      "PackagePath": "staticwebassets\\assets\\node_modules\\x-editable\\dist\\bootstrap3-editable\\img\\loading.gif"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\fonts\\Simple-Line-Icons4c82.ttf",
+      "PackagePath": "staticwebassets\\dist\\css\\fonts\\Simple-Line-Icons4c82.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\dist\\css\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\fonts\\icomoonca27.ttf",
+      "PackagePath": "staticwebassets\\dist\\css\\fonts\\icomoonca27.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\fonts\\materialdesignicons-webfont.ttf",
+      "PackagePath": "staticwebassets\\dist\\css\\fonts\\materialdesignicons-webfont.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\fonts\\themify.ttf",
+      "PackagePath": "staticwebassets\\dist\\css\\fonts\\themify.ttf"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\bootstrap-switch.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\bootstrap-switch.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\breadcrumb-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\breadcrumb-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\chat-app-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\chat-app-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\contact-app-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\contact-app-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\dashboard1.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\dashboard1.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\dashboard2.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\dashboard2.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\easy-pie-chart.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\easy-pie-chart.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\error-pages.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\error-pages.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\file-upload.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\file-upload.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\float-chart.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\float-chart.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\floating-label.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\floating-label.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\footable-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\footable-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\form-icheck.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\form-icheck.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\google-vector-map.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\google-vector-map.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\icon-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\icon-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\inbox.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\inbox.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\login-register-lock.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\login-register-lock.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\other-pages.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\other-pages.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\pricing-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\pricing-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\progressbar-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\progressbar-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\register3.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\register3.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\ribbon-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\ribbon-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\stylish-tooltip.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\stylish-tooltip.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\tab-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\tab-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\timeline-vertical-horizontal.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\timeline-vertical-horizontal.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\ui-bootstrap-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\ui-bootstrap-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\user-card.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\user-card.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\pages\\widget-page.css",
+      "PackagePath": "staticwebassets\\dist\\css\\pages\\widget-page.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\css\\style.min.css",
+      "PackagePath": "staticwebassets\\dist\\css\\style.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\crypto-stats.js",
+      "PackagePath": "staticwebassets\\dist\\js\\crypto-stats.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\crypto.js",
+      "PackagePath": "staticwebassets\\dist\\js\\crypto.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\custom.js",
+      "PackagePath": "staticwebassets\\dist\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\custom.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\custom.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\dashboard1.js",
+      "PackagePath": "staticwebassets\\dist\\js\\dashboard1.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\dashboard2.js",
+      "PackagePath": "staticwebassets\\dist\\js\\dashboard2.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\fastclick.js",
+      "PackagePath": "staticwebassets\\dist\\js\\fastclick.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\jquery.webticker.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\jquery.webticker.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\bootstrap-table.init.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\bootstrap-table.init.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\chat.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\chat.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\flot-data.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\flot-data.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\footable-init.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\footable-init.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\jasny-bootstrap.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\jasny-bootstrap.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\jquery.PrintArea.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\jquery.PrintArea.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\jsgrid-init.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\jsgrid-init.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\mask.init.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\mask.init.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\morris-data.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\morris-data.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\toastr.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\toastr.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\validation.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\validation.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\widget-charts.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\widget-charts.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\pages\\widget-data.js",
+      "PackagePath": "staticwebassets\\dist\\js\\pages\\widget-data.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\perfect-scrollbar.jquery.min.js",
+      "PackagePath": "staticwebassets\\dist\\js\\perfect-scrollbar.jquery.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\sidebarmenu.js",
+      "PackagePath": "staticwebassets\\dist\\js\\sidebarmenu.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\waves.js",
+      "PackagePath": "staticwebassets\\dist\\js\\waves.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\dist\\js\\web-ticker.js",
+      "PackagePath": "staticwebassets\\dist\\js\\web-ticker.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\0d3c4805-a5c2-465f-93a9-5f1403988949.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\0d3c4805-a5c2-465f-93a9-5f1403988949.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\4ab911d4-f8d8-4545-a3fe-bd003b6ea7f9.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\4ab911d4-f8d8-4545-a3fe-bd003b6ea7f9.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\541230a0-01ca-4b1d-beb2-f2814bdacc9f.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\541230a0-01ca-4b1d-beb2-f2814bdacc9f.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\6d22fffc-68d9-4d48-ad7d-23bfc3a50c2b.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\6d22fffc-68d9-4d48-ad7d-23bfc3a50c2b.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\d99c8061-4639-4c90-a8e3-9297a59aa931.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\d99c8061-4639-4c90-a8e3-9297a59aa931.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\dcef057a-0f49-4d91-a3fa-f35bda01f8e1.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\dcef057a-0f49-4d91-a3fa-f35bda01f8e1.png"
+    },
+    {
+      "Id": "E:\\SAProject\\wwwroot\\uploads\\products\\f394852a-40f9-4fe7-bf1d-89c597d48212.png",
+      "PackagePath": "staticwebassets\\uploads\\products\\f394852a-40f9-4fe7-bf1d-89c597d48212.png"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SAProject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.SAProject.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.SAProject.props",
+      "PackagePath": "build\\SAProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.SAProject.props",
+      "PackagePath": "buildMultiTargeting\\SAProject.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.SAProject.props",
+      "PackagePath": "buildTransitive\\SAProject.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

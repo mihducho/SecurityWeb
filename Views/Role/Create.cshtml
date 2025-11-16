@@ -1,0 +1,68 @@
+﻿@model RoleViewModel
+@{
+    ViewData["Title"] = "Tạo vai trò mới";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-plus-circle me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a href="@Url.Action("Index")" class="btn btn-light btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i>Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="RoleName" class="form-label">Tên vai trò</label>
+                                    <input asp-for="RoleName" class="form-control" placeholder="Nhập tên vai trò..." />
+                                    <span asp-validation-for="RoleName" class="text-danger"></span>
+                                    <small class="form-text text-muted">
+                                        Ví dụ: Admin, Manager, User, Editor...
+                                    </small>
+                                </div>
+
+                                <div class="mb-3">
+                                    <button type="submit" class="btn btn-success">
+                                        <i class="fas fa-save me-1"></i>Tạo vai trò
+                                    </button>
+                                    <a href="@Url.Action("Index")" class="btn btn-secondary">
+                                        <i class="fas fa-times me-1"></i>Hủy bỏ
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card bg-light">
+                                    <div class="card-header">
+                                        <h6 class="mb-0"><i class="fas fa-info-circle me-2"></i>Thông tin</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="mb-2">Vai trò giúp phân quyền cho người dùng trong hệ thống.</p>
+                                        <p class="mb-2">Một số vai trò phổ biến:</p>
+                                        <ul class="mb-0">
+                                            <li><strong>Admin</strong>: Toàn quyền hệ thống</li>
+                                            <li><strong>User</strong>: Người dùng thông thường</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

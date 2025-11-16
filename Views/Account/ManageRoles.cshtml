@@ -1,0 +1,124 @@
+﻿@model ManageRolesViewModel
+@{
+    ViewData["Title"] = "Quản lý vai trò";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-warning text-dark">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-user-shield me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a href="@Url.Action("Index")" class="btn btn-dark btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i>Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    @if (TempData["ErrorMessage"] != null)
+                    {
+                        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                            <i class="fas fa-exclamation-circle me-2"></i>@TempData["ErrorMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header bg-info text-white">
+                                    <h5 class="mb-0">Thông tin tài khoản</h5>
+                                </div>
+                                <div class="card-body">
+                                    <p><strong>Tên đăng nhập:</strong> @Model.UserName</p>
+                                    <p><strong>Vai trò hiện tại:</strong></p>
+                                    @if (Model.UserRoles.Any())
+                                    {
+                                        foreach (var role in Model.UserRoles)
+                                        {
+                                            <span class="badge bg-primary me-1 mb-1">@role</span>
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <span class="text-muted">Chưa có vai trò</span>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-8">
+                            <div class="card">
+                                <div class="card-header bg-primary text-white">
+                                    <h5 class="mb-0">Phân quyền vai trò</h5>
+                                </div>
+                                <div class="card-body">
+                                    <form asp-action="ManageRoles" method="post">
+                                        <input type="hidden" asp-for="UserId" />
+                                        <input type="hidden" asp-for="UserName" />
+
+                                        <div class="row">
+                                            @for (int i = 0; i < Model.AllRoles.Count; i++)
+                                            {
+                                                <div class="col-md-6 mb-3">
+                                                    <div class="form-check">
+                                                        <input type="hidden" asp-for="@Model.AllRoles[i].RoleId" />
+                                                        <input type="hidden" asp-for="@Model.AllRoles[i].RoleName" />
+                                                        <input asp-for="@Model.AllRoles[i].IsSelected" class="form-check-input" />
+                                                        <label asp-for="@Model.AllRoles[i].IsSelected" class="form-check-label">
+                                                            @Model.AllRoles[i].RoleName
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            }
+                                        </div>
+
+                                        @if (!Model.AllRoles.Any())
+                                        {
+                                            <div class="alert alert-info">
+                                                <i class="fas fa-info-circle me-2"></i>
+                                                Chưa có vai trò nào trong hệ thống.
+                                                <a href="#" class="alert-link">Tạo vai trò mới</a>
+                                            </div>
+                                        }
+
+                                        <div class="mt-4">
+                                            <button type="submit" class="btn btn-success">
+                                                <i class="fas fa-save me-1"></i>Cập nhật vai trò
+                                            </button>
+                                            <a href="@Url.Action("Details", new { id = Model.UserId })" class="btn btn-info">
+                                                <i class="fas fa-eye me-1"></i>Chi tiết
+                                            </a>
+                                            <a href="@Url.Action("Edit", new { id = Model.UserId })" class="btn btn-primary">
+                                                <i class="fas fa-edit me-1"></i>Sửa thông tin
+                                            </a>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .form-check-label {
+        font-weight: 500;
+        margin-left: 0.5rem;
+    }
+</style>

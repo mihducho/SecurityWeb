@@ -1,0 +1,109 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Tạo sản phẩm mới";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-success text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-plus-circle me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a href="@Url.Action("Index")" class="btn btn-light btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i>Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create" method="post" enctype="multipart/form-data">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="Name" class="form-label"></label>
+                                    <input asp-for="Name" class="form-control" />
+                                    <span asp-validation-for="Name" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Price" class="form-label"></label>
+                                    <input asp-for="Price" type="number" step="0.01" class="form-control" />
+                                    <span asp-validation-for="Price" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Description" class="form-label"></label>
+                                    <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+                                    <span asp-validation-for="Description" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="ImageFiles" class="form-label"></label>
+                                    <input asp-for="ImageFiles" type="file" multiple class="form-control"
+                                           accept="image/*" />
+                                    <span asp-validation-for="ImageFiles" class="text-danger"></span>
+                                    <small class="form-text text-muted">
+                                        Có thể chọn nhiều ảnh cùng lúc (Ctrl + Click)
+                                    </small>
+                                </div>
+
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h6 class="mb-0">Xem trước ảnh</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div id="imagePreview" class="d-flex flex-wrap gap-2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-save me-1"></i>Tạo sản phẩm
+                                </button>
+                                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                                    <i class="fas fa-times me-1"></i>Hủy bỏ
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Image preview functionality
+        document.getElementById('ImageFiles').addEventListener('change', function(e) {
+            const preview = document.getElementById('imagePreview');
+            preview.innerHTML = '';
+
+            const files = e.target.files;
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                if (file.type.startsWith('image/')) {
+                    const reader = new FileReader();
+                    reader.onload = function(e) {
+                        const img = document.createElement('img');
+                        img.src = e.target.result;
+                        img.style.maxWidth = '100px';
+                        img.style.maxHeight = '100px';
+                        img.className = 'img-thumbnail';
+                        preview.appendChild(img);
+                    }
+                    reader.readAsDataURL(file);
+                }
+            }
+        });
+    </script>
+}

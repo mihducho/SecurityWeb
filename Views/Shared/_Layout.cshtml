@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Links of CSS files -->
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/assets/css/animate.min.css">
+    <link rel="stylesheet" href="~/assets/css/boxicons.min.css">
+    <link rel="stylesheet" href="~/assets/css/flaticon.css">
+    <link rel="stylesheet" href="~/assets/css/magnific-popup.min.css">
+    <link rel="stylesheet" href="~/assets/css/nice-select.min.css">
+    <link rel="stylesheet" href="~/assets/css/slick.min.css">
+    <link rel="stylesheet" href="~/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="~/assets/css/meanmenu.min.css">
+    <link rel="stylesheet" href="~/assets/css/rangeSlider.min.css">
+    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="~/assets/css/dark.css">
+    <link rel="stylesheet" href="~/assets/css/responsive.css">
+
+    <title>Xton - eCommerce HTML Template</title>
+
+    <link rel="icon" type="image/png" href="~/assets/img/favicon.png">
+</head>
+<body>
+    <!-- Start Navbar Area -->
+
+    <div class="navbar-area">
+        <div class="xton-nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="/">
+                        <img src="~/assets/img/logo.png" alt="logo">
+                    </a>
+
+                    <div class="collapse navbar-collapse mean-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">Trang chủ</a>
+                            </li>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a href="/AdminProducts" class="nav-link">Trang Quản Trị</a>
+                                </li>
+                            }
+
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    <a href="/Account/Login" class="nav-link">Đăng nhập</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/Account/Register" class="nav-link">Đăng Ký</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Xin chào, @User.Identity.Name!
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li>
+                                            <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                                <button type="submit" class="dropdown-item text-danger">Đăng xuất</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Navbar Area -->
+    <!-- Start Sticky Navbar Area -->
+    <div class="navbar-area header-sticky">
+        <div class="xton-nav">
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <a class="navbar-brand" href="/">
+                        <img src="~/assets/img/logo.png" alt="logo">
+                    </a>
+
+                    <div class="collapse navbar-collapse mean-menu">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link">Trang chủ</a>
+                            </li>
+
+                            @if (User.IsInRole("Admin"))
+                            {
+                                <li class="nav-item">
+                                    <a href="/Products" class="nav-link">Trang Quản Trị</a>
+                                </li>
+                            }
+
+                            @if (!User.Identity.IsAuthenticated)
+                            {
+                                <li class="nav-item">
+                                    <a href="/Account/Login" class="nav-link">Đăng nhập</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="/Account/Register" class="nav-link">Đăng Ký</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Xin chào, @User.Identity.Name!
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li>
+                                            <form asp-controller="Account" asp-action="Logout" method="post" class="d-inline">
+                                                <button type="submit" class="dropdown-item text-danger">Đăng xuất</button>
+                                            </form>
+                                        </li>
+                                    </ul>
+                                </li>
+                            }
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- End Header Area -->
+    @RenderBody()
+    <!-- Start Footer Area -->
+    <footer class="footer-area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Về Cửa Hàng</h3>
+
+                        <div class="about-the-store">
+                            <p>Một trong những cửa hàng thời trang phổ biến nhất trên web.</p>
+                            <ul class="footer-contact-info">
+                                <li><i class='bx bx-map'></i> <span>123 Đường ABC, Quận 1, TP.HCM</span></li>
+                                <li><i class='bx bx-phone-call'></i> <span>+84 28 1234 5678</span></li>
+                                <li><i class='bx bx-envelope'></i> <span>contact@cuahang.com</span></li>
+                            </ul>
+                        </div>
+
+                        <ul class="social-link">
+                            <li><span class="d-block"><i class='bx bxl-facebook'></i></span></li>
+                            <li><span class="d-block"><i class='bx bxl-twitter'></i></span></li>
+                            <li><span class="d-block"><i class='bx bxl-instagram'></i></span></li>
+                            <li><span class="d-block"><i class='bx bxl-linkedin'></i></span></li>
+                            <li><span class="d-block"><i class='bx bxl-pinterest-alt'></i></span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget pl-4">
+                        <h3>Liên Kết Nhanh</h3>
+
+                        <ul class="quick-links">
+                            <li><span>Về Chúng Tôi</span></li>
+                            <li><span>Mua Sắm Ngay</span></li>
+                            <li><span>Thời Trang Nữ</span></li>
+                            <li><span>Câu Hỏi Thường Gặp</span></li>
+                            <li><span>Liên Hệ</span></li>
+                            <li><span>Dịch Vụ Khách Hàng</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Hỗ Trợ Khách Hàng</h3>
+
+                        <ul class="customer-support">
+                            <li><span>Tài Khoản Của Tôi</span></li>
+                            <li><span>Thanh Toán</span></li>
+                            <li><span>Giỏ Hàng</span></li>
+                            <li><span>FAQ's</span></li>
+                            <li><span>Theo Dõi Đơn Hàng</span></li>
+                            <li><span>Trợ Giúp & Hỗ Trợ</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h3>Bản Tin</h3>
+
+                        <div class="footer-newsletter-box">
+                            <p>Nhận tin tức mới nhất và cập nhật từ chúng tôi.</p>
+
+                            <form class="newsletter-form">
+                                <label>Địa chỉ Email của bạn:</label>
+                                <input type="email" class="input-newsletter" placeholder="Nhập email của bạn" name="EMAIL" required autocomplete="off">
+                                <button type="submit">Đăng Ký</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom-area">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-6 col-md-6">
+                        <p>© 2024 Cửa Hàng Thời Trang. Tất cả các quyền được bảo lưu.</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <ul class="payment-types">
+                            <li><span><img src="~/assets/img/payment/visa.png" alt="Visa"></span></li>
+                            <li><span><img src="~/assets/img/payment/mastercard.png" alt="Mastercard"></span></li>
+                            <li><span><img src="~/assets/img/payment/mastercard2.png" alt="Mastercard"></span></li>
+                            <li><span><img src="~/assets/img/payment/visa2.png" alt="Visa"></span></li>
+                            <li><span><img src="~/assets/img/payment/expresscard.png" alt="Express Card"></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="lines">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+
+    <div class="go-top"><i class='bx bx-up-arrow-alt'></i></div>
+
+    @await RenderSectionAsync("Scripts", required: false)
+    <script src="~/assets/js/jquery.min.js"></script>
+    <script src="~/assets/js/popper.min.html"></script>
+    <script src="~/assets/js/bootstrap.bundle.min.js"></script>
+    <script src="~/assets/js/owl.carousel.min.js"></script>
+    <script src="~/assets/js/magnific-popup.min.js"></script>
+    <script src="~/assets/js/parallax.min.js"></script>
+    <script src="~/assets/js/rangeSlider.min.js"></script>
+    <script src="~/assets/js/nice-select.min.js"></script>
+    <script src="~/assets/js/meanmenu.min.js"></script>
+    <script src="~/assets/js/isotope.pkgd.min.js"></script>
+    <script src="~/assets/js/slick.min.js"></script>
+    <script src="~/assets/js/sticky-sidebar.min.js"></script>
+    <script src="~/assets/js/wow.min.js"></script>
+    <script src="~/assets/js/form-validator.min.js"></script>
+    <script src="~/assets/js/contact-form-script.js"></script>
+    <script src="~/assets/js/ajaxchimp.min.js"></script>
+    <script src="~/assets/js/main.js"></script>
+</body>
+
+</html>
+
+

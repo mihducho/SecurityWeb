@@ -1,0 +1,303 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Trang Chủ";
+}
+
+<!-- Start Main Banner Area -->
+<div class="home-slides-three owl-carousel owl-theme">
+    <div class="hero-banner">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="main-banner-content">
+                                <span class="sub-title">Ưu đãi có hạn!</span>
+                                <h1>Thu Đông 2024!</h1>
+                                <p>Giảm 20% cho các sản phẩm bán chạy</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="banner-image">
+                                <div class="circle"></div>
+                                <img src="~/assets/img/banner-img2.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-banner">
+        <div class="d-table">
+            <div class="d-table-cell">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-lg-6">
+                            <div class="main-banner-content">
+                                <span class="sub-title">Ưu đãi độc quyền!</span>
+                                <h1>Thời trang Hè!</h1>
+                                <p>Khuyến mãi đặc biệt 'Sản phẩm bán chạy'</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <div class="banner-image">
+                                <div class="circle"></div>
+                                <img src="~/assets/img/banner-img1.png" alt="image">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Main Banner Area -->
+<!-- Start Categories Banner Area -->
+<section class="categories-banner-area pt-100 pb-70">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="single-categories-box">
+                    <img src="~/assets/img/categories/img1.jpg" alt="image">
+
+                    <div class="content text-white">
+                        <span>Đừng bỏ lỡ hôm nay</span>
+                        <h3>GIẢM 50%</h3>
+                        <a href="/home" class="default-btn">Khám phá ngay</a>
+                    </div>
+                    <a href="/home" class="link-btn"></a>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="single-categories-box">
+                    <img src="~/assets/img/categories/img2.jpg" alt="image">
+
+                    <div class="content">
+                        <span>Bộ sưu tập mới</span>
+                        <h3>Cần ngay</h3>
+                        <a href="/home" class="default-btn">Khám phá ngay</a>
+                    </div>
+                    <a href="/home" class="link-btn"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Categories Banner Area -->
+<!-- Start Products Area -->
+<section class="products-area pb-70">
+    <div class="container">
+        <div class="section-title">
+            <span class="sub-title">Xem bộ sưu tập của chúng tôi</span>
+            <h2>Sản Phẩm Mới Nhất</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            @if (Model.Any())
+            {
+                @foreach (var product in Model)
+                {
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="single-productsBox">
+                            <div class="products-image">
+                                <a href="/home/details/@product.Id">
+                                    @if (product.Images.Any())
+                                    {
+                                        var primaryImage = product.Images.FirstOrDefault(i => i.IsPrimary) ?? product.Images.First();
+                                        <img src="@primaryImage.ImageUrl" class="main-image" alt="@product.Name" style="height: 300px; object-fit: cover;">
+                                        @if (product.Images.Count > 1)
+                                        {
+                                            var secondImage = product.Images.Skip(1).First();
+                                            <img src="@secondImage.ImageUrl" class="hover-image" alt="@product.Name" style="height: 300px; object-fit: cover;">
+                                        }
+                                        else
+                                        {
+                                            <img src="@primaryImage.ImageUrl" class="hover-image" alt="@product.Name" style="height: 300px; object-fit: cover;">
+                                        }
+                                    }
+                                    else
+                                    {
+                                        <img src="~/assets/img/products/placeholder.jpg" class="main-image" alt="@product.Name" style="height: 300px; object-fit: cover;">
+                                        <img src="~/assets/img/products/placeholder.jpg" class="hover-image" alt="@product.Name" style="height: 300px; object-fit: cover;">
+                                    }
+                                </a>
+
+                                <div class="products-button">
+                                    <ul>
+                                        <li>
+                                            <div class="quick-view-btn">
+                                                <a href="#" data-bs-toggle="modal" data-bs-target="#productsQuickView"
+                                                   data-product-id="@product.Id" data-product-name="@product.Name"
+                                                   data-product-price="@product.Price" data-product-description="@product.Description">
+                                                    <i class='bx bx-search-alt'></i>
+                                                    <span class="tooltip-label">Xem nhanh</span>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="products-content">
+                                <span class="category">Sản phẩm</span>
+                                <h3><a href="/home/details/@product.Id">@product.Name</a></h3>
+                                <div class="star-rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                </div>
+                                <div class="price">
+                                    <span class="new-price">@product.Price.ToString("N0") ₫</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="col-12 text-center py-5">
+                    <i class='bx bx-package' style="font-size: 60px; color: #ccc;"></i>
+                    <h4 class="mt-3 text-muted">Chưa có sản phẩm nào</h4>
+                    <p class="text-muted">Hãy quay lại sau để xem các sản phẩm mới nhất</p>
+                </div>
+            }
+        </div>
+
+        @if (Model.Any())
+        {
+            <div class="row">
+                <div class="col-12 text-center mt-4">
+                    <a href="/" class="default-btn">Xem Tất Cả Sản Phẩm</a>
+                </div>
+            </div>
+        }
+    </div>
+</section>
+<!-- End Products Area -->
+<!-- Start Brand Area -->
+<div class="brand-area ptb-70">
+    <div class="container">
+        <div class="section-title">
+            <h2>Thương Hiệu Nổi Bật</h2>
+        </div>
+
+        <div class="brand-slides owl-carousel owl-theme">
+            <div class="brand-item">
+                <a href="#"><img src="~/assets/img/brand/img1.png" alt="Nike"></a>
+            </div>
+
+            <div class="brand-item">
+                <a href="#"><img src="~/assets/img/brand/img2.png" alt="Adidas"></a>
+            </div>
+
+            <div class="brand-item">
+                <a href="#"><img src="~/assets/img/brand/img3.png" alt="Puma"></a>
+            </div>
+
+            <div class="brand-item">
+                <a href="#"><img src="~/assets/img/brand/img4.png" alt="Zara"></a>
+            </div>
+
+            <div class="brand-item">
+                <a href="#"><img src="~/assets/img/brand/img5.png" alt="H&M"></a>
+            </div>
+
+            <div class="brand-item">
+                <a href="#"><img src="~/assets/img/brand/img6.png" alt="Uniqlo"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Brand Area -->
+<!-- Quick View Modal -->
+<div class="modal productsQuickView fade" id="productsQuickView" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                <i class='bx bx-x'></i>
+            </button>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="products-image" id="quickViewImage">
+                        <!-- Image will be loaded via JavaScript -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="products-content" id="quickViewContent">
+                        <!-- Content will be loaded via JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Quick view functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const quickViewButtons = document.querySelectorAll('.quick-view-btn a');
+
+            quickViewButtons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    e.preventDefault();
+
+                    const productId = this.getAttribute('data-product-id');
+                    const productName = this.getAttribute('data-product-name');
+                    const productPrice = this.getAttribute('data-product-price');
+                    const productDescription = this.getAttribute('data-product-description');
+
+                    // Update quick view modal content
+                    document.getElementById('quickViewContent').innerHTML = `
+                        <span class="category">Sản phẩm</span>
+                        <h3>${productName}</h3>
+                        <div class="price">
+                            <span class="new-price">${parseInt(productPrice).toLocaleString('vi-VN')} ₫</span>
+                        </div>
+                        <p>${productDescription || 'Sản phẩm chất lượng cao'}</p>
+                        <div class="products-color-switch">
+                            <h4>Màu sắc:</h4>
+                            <ul>
+                                <li><a href="#" class="color1"></a></li>
+                                <li><a href="#" class="color2"></a></li>
+                                <li><a href="#" class="color3"></a></li>
+                                <li><a href="#" class="color4"></a></li>
+                            </ul>
+                        </div>
+                        <div class="products-size-wrapper">
+                            <h4>Kích cỡ:</h4>
+                            <ul>
+                                <li><a href="#">S</a></li>
+                                <li><a href="#">M</a></li>
+                                <li><a href="#">L</a></li>
+                                <li><a href="#">XL</a></li>
+                            </ul>
+                        </div>
+                        <div class="products-add-to-cart">
+                            <div class="input-counter">
+                                <span class="minus-btn"><i class='bx bx-minus'></i></span>
+                                <input type="text" value="1">
+                                <span class="plus-btn"><i class='bx bx-plus'></i></span>
+                            </div>
+                        </div>
+                    `;
+
+                    // You can also load the product image here if needed
+                    const productImage = this.closest('.products-image').querySelector('.main-image').src;
+                    document.getElementById('quickViewImage').innerHTML = `
+                        <img src="${productImage}" alt="${productName}">
+                    `;
+                });
+            });
+        });
+    </script>
+}

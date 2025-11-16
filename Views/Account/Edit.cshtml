@@ -1,0 +1,163 @@
+﻿@model EditUserViewModel
+@{
+    ViewData["Title"] = "Chỉnh sửa tài khoản";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-edit me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a href="@Url.Action("Index")" class="btn btn-light btn-sm">
+                            <i class="fas fa-arrow-left me-1"></i>Quay lại
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <form asp-action="Edit" method="post">
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <label asp-for="UserName" class="form-label"></label>
+                                    <input asp-for="UserName" class="form-control" />
+                                    <span asp-validation-for="UserName" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="Email" class="form-label"></label>
+                                    <input asp-for="Email" class="form-control" />
+                                    <span asp-validation-for="Email" class="text-danger"></span>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label asp-for="FullName" class="form-label"></label>
+                                    <input asp-for="FullName" class="form-control" />
+                                    <span asp-validation-for="FullName" class="text-danger"></span>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input asp-for="EmailConfirmed" class="form-check-input" />
+                                        <label asp-for="EmailConfirmed" class="form-check-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input asp-for="RequireMfa" class="form-check-input" />
+                                        <label asp-for="RequireMfa" class="form-check-label"></label>
+                                    </div>
+                                </div>
+
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input asp-for="ForceMfaAfterFailedAttempts" class="form-check-input" />
+                                        <label asp-for="ForceMfaAfterFailedAttempts" class="form-check-label"></label>
+                                    </div>
+                                </div>
+
+                                <!-- Reset Password Form -->
+                                <div class="card">
+                                    <div class="card-header">
+                                        <h6 class="mb-0">Đặt lại mật khẩu</h6>
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="input-group">
+                                            <input type="password" id="newPassword" class="form-control" placeholder="Mật khẩu mới" />
+                                            <button type="button" class="btn btn-outline-primary" onclick="resetPassword()">
+                                                <i class="fas fa-key me-1"></i>Đặt lại
+                                            </button>
+                                        </div>
+                                        <small class="text-muted">Mật khẩu phải có ít nhất 6 ký tự</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row mt-3">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-success">
+                                    <i class="fas fa-save me-1"></i>Cập nhật
+                                </button>
+                                <a href="@Url.Action("Details", new { id = Model.Id })" class="btn btn-info">
+                                    <i class="fas fa-eye me-1"></i>Chi tiết
+                                </a>
+                                <a href="@Url.Action("ManageRoles", new { id = Model.Id })" class="btn btn-warning">
+                                    <i class="fas fa-user-shield me-1"></i>Phân quyền
+                                </a>
+                                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                                    <i class="fas fa-arrow-left me-1"></i>Quay lại
+                                </a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+
+    <script>
+        function resetPassword() {
+            var newPassword = document.getElementById('newPassword').value;
+            var userId = '@Model.Id';
+
+            if (!newPassword) {
+                alert('Vui lòng nhập mật khẩu mới');
+                return;
+            }
+
+            if (newPassword.length < 12) {
+                alert('Mật khẩu phải có ít nhất 12 ký tự');
+                return;
+            }
+
+            if (confirm('Bạn có chắc chắn muốn đặt lại mật khẩu?')) {
+                // Gửi request reset password
+                var formData = new FormData();
+                formData.append('id', userId);
+                formData.append('newPassword', newPassword);
+
+                fetch('@Url.Action("ResetPassword", "Account")', {
+                    method: 'POST',
+                    body: formData,
+                    headers: {
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    }
+                })
+                .then(response => {
+                    if (response.ok) {
+                        alert('Đặt lại mật khẩu thành công!');
+                        document.getElementById('newPassword').value = '';
+                    } else {
+                        alert('Đặt lại mật khẩu thất bại!');
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Có lỗi xảy ra!');
+                });
+            }
+        }
+    </script>
+}

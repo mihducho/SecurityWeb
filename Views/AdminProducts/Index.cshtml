@@ -1,0 +1,136 @@
+﻿@model List<Product>
+@{
+    ViewData["Title"] = "Quản lý Sản phẩm";
+    Layout = "_LayoutAdmin";
+}
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header bg-primary text-white">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h4 class="mb-0">
+                            <i class="fas fa-boxes me-2"></i>@ViewData["Title"]
+                        </h4>
+                        <a href="@Url.Action("Create")" class="btn btn-light btn-sm">
+                            <i class="fas fa-plus me-1"></i>Tạo sản phẩm mới
+                        </a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @if (TempData["SuccessMessage"] != null)
+                    {
+                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                            <i class="fas fa-check-circle me-2"></i>@TempData["SuccessMessage"]
+                            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                        </div>
+                    }
+
+                    <div class="table-responsive">
+                        <table class="table table-striped table-bordered table-hover">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th width="80">Hình ảnh</th>
+                                    <th>Tên sản phẩm</th>
+                                    <th width="120">Giá</th>
+                                    <th width="100">Số ảnh</th>
+                                    <th width="150">Thao tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var product in Model)
+                                {
+                                    <tr>
+                                        <td>
+                                            @if (product.Images.Any())
+                                            {
+                                                var primaryImage = product.Images.FirstOrDefault(i => i.IsPrimary) ?? product.Images.First();
+                                                <img src="@primaryImage.ImageUrl"
+                                                     class="img-thumbnail"
+                                                     style="width: 60px; height: 60px; object-fit: cover;"
+                                                     alt="@product.Name"
+                                                     title="@product.Name" />
+                                            }
+                                            else
+                                            {
+                                                <div class="bg-light d-flex align-items-center justify-content-center"
+                                                     style="width: 60px; height: 60px;">
+                                                    <i class="fas fa-image text-muted"></i>
+                                                </div>
+                                            }
+                                        </td>
+                                        <td>
+                                            <div class="fw-bold">@product.Name</div>
+                                            @if (!string.IsNullOrEmpty(product.Description))
+                                            {
+                                                <small class="text-muted">
+                                                    @(product.Description.Length > 50 ? product.Description.Substring(0, 50) + "..." : product.Description)
+                                                </small>
+                                            }
+                                        </td>
+                                        <td>
+                                            <span class="fw-bold text-success">@product.Price.ToString("N0") ₫</span>
+                                        </td>
+                                        <td>
+                                            <span class="badge bg-info">
+                                                @product.Images.Count ảnh
+                                            </span>
+                                            @if (product.Images.Any(i => i.IsPrimary))
+                                            {
+                                                <i class="fas fa-star text-warning ms-1" title="Có ảnh chính"></i>
+                                            }
+                                        </td>
+                                        <td>
+                                            <div class="btn-group btn-group-sm">
+                                                <a href="@Url.Action("Details", new { id = product.Id })"
+                                                   class="btn btn-outline-info" title="Chi tiết">
+                                                    <i class="fas fa-eye"></i>
+                                                </a>
+                                                <a href="@Url.Action("Edit", new { id = product.Id })"
+                                                   class="btn btn-outline-primary" title="Sửa">
+                                                    <i class="fas fa-edit"></i>
+                                                </a>
+                                                <a href="@Url.Action("Delete", new { id = product.Id })"
+                                                   class="btn btn-outline-danger" title="Xóa">
+                                                    <i class="fas fa-trash"></i>
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+
+                    @if (!Model.Any())
+                    {
+                        <div class="text-center py-5">
+                            <i class="fas fa-box-open fa-3x text-muted mb-3"></i>
+                            <h5 class="text-muted">Chưa có sản phẩm nào</h5>
+                            <p class="text-muted">Hãy tạo sản phẩm đầu tiên của bạn</p>
+                            <a href="@Url.Action("Create")" class="btn btn-primary">
+                                <i class="fas fa-plus me-1"></i>Tạo sản phẩm mới
+                            </a>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .table th {
+        border-top: none;
+        font-weight: 600;
+    }
+
+    .img-thumbnail {
+        border-radius: 8px;
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 123, 255, 0.1) !important;
+    }
+</style>
